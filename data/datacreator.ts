@@ -38,6 +38,10 @@ const entities = new Entities()
 const readFile = util.promisify(fs.readFile)
 
 function loadStaticData (file: string) {
+  const allowedFiles = ['dir1', 'dir2'];
+  if (!allowedFiles.includes(file)) {
+      throw new Error(`Invalid file: ${file}`);
+  }
   const filePath = path.resolve('./data/static/' + file + '.yml')
   return readFile(filePath, 'utf8')
     .then(safeLoad)
