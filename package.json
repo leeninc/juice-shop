@@ -111,7 +111,7 @@
     ]
   },
   "dependencies": {
-    "express-basic-auth": "1.1.7",
+    "express-basic-auth": "1.2.0",
     "lodash-es": "4.17.4",
     "body-parser": "^1.20.2",
     "check-dependencies": "^1.1.0",
