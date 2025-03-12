@@ -11,7 +11,7 @@
   },
   "private": true,
   "dependencies": {
-    "lodash-es": "4.17.4",
+    "lodash-es": "4.17.21",
     "express-fileupload": "1.1.5",
     "canvas-confetti": "^1.4.0",
     "codemirror": "^5.65.14",
